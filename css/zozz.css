@@ -1,0 +1,266 @@
+body{
+    width: 1440px;
+    background-image:url("./images/bg-header-desktop.png") ;
+    background-repeat: no-repeat;
+}
+.child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+   
+}
+.mm{
+    text-align: center;
+    font-size: 18px;
+font-family:Arial, Helvetica, sans-serif;
+color: hsl(210, 10%, 33%);
+}
+.p1{
+    font-size: 15px;
+    color: hsl(201, 11%, 66%);
+}
+.bb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+
+   
+}
+.button{
+     margin: .5cm;
+     border: 5px;
+     width: 160px;
+     height:50px ;
+     background-color: hsl(171, 66%, 44%);
+     color: aliceblue;
+     border-radius: 30px;
+     font-size: 15px;
+     font-weight: bolder;
+     cursor: pointer;
+     
+}
+.button:focus{
+    border: 10px;
+    color: blueviolet;
+}
+.button2{
+    margin: .5cm;
+    border: 25px;
+    width: 160px;
+    height:50px ;
+    background-color: hsl(233, 100%, 69%);
+color: aliceblue;
+border-radius: 30px;
+font-size: 15px;
+font-weight: bolder;
+cursor: pointer;
+}
+
+.button2:focus{
+    border: 10px;
+    color: blueviolet;
+}
+.p2{
+    margin-top: 80px;
+    text-align: center;
+    font-size: 18px;
+font-family:Arial, Helvetica, sans-serif;
+color: hsl(210, 10%, 33%);
+}
+.p3{
+    font-family:Arial, Helvetica, sans-serif;
+
+    text-align: center;
+    font-size: 15px;
+    color: hsl(201, 11%, 66%);
+}
+img {
+    margin-top: 100px;
+padding: 0 100px 0 0;   
+ float: left;
+
+  }
+
+
+.text{
+    padding-top: 80px;
+    margin-left: 200px;
+    left: 70%;
+
+}
+.p4{
+    margin-top: 80px;
+
+    font-size: 18px;
+font-family:Arial, Helvetica, sans-serif;
+color: hsl(210, 10%, 33%);
+
+}
+.p5{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: hsl(201, 11%, 66%);
+}
+
+
+.p6{
+    margin-top: 230px;
+    text-align: center;
+    font-size: 18px;
+font-family:Arial, Helvetica, sans-serif;
+color: hsl(210, 10%, 33%);
+
+}
+.p7{
+    text-align: center;
+    font-size: 15px;
+    color: hsl(201, 11%, 66%);
+    font-family:Arial, Helvetica, sans-serif;
+
+
+}
+.jj{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p8{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 18px;
+font-family:Arial, Helvetica, sans-serif;
+color:hsl(210, 10%, 33%);
+
+}
+.p9{
+    text-align: center;
+    font-size: 15px;
+    color: hsl(201, 11%, 66%);
+    font-family:Arial, Helvetica, sans-serif;
+
+
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.flex-container > div>img{
+    margin: 10px;
+    padding: 5px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+float: inline-start;    
+margin-left: 140px;
+  }
+  .x{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 20px;
+    padding: 5px;
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: hsl(210, 10%, 33%);
+    left: 20px;
+    }
+  
+  .k{
+    text-align: center;
+    margin-top: 2px;
+    margin-left: 20px;
+    padding: 5px;
+    font-size: 15px;
+    color: hsl(201, 11%, 66%);
+    font-family:Arial, Helvetica, sans-serif;
+
+  }
+  .container {
+    display: flex;
+  }
+  
+  .container > div {
+    margin: 5px;
+    padding: 10px;
+    font-size: 20px;
+    size: 5px;
+  }
+  
+.e{
+    margin-top: 90px;
+    text-align: center;
+    font-size: 18px;
+font-family:Arial, Helvetica, sans-serif;
+color: hsl(210, 10%, 33%);
+}
+.e1{
+    font-size: 15px;
+    color: hsl(201, 11%, 66%);
+    text-align: center;
+font-family:Arial, Helvetica, sans-serif;
+}
+.zoo{
+    margin-top: 50px;  
+      padding: 10px;
+    background-color: hsl(180, 4%, 89%);
+    overflow: auto;
+    
+    }
+    .zoo>img{
+        height: 40px;
+        margin-top: 30px;
+        margin-left: 130px;
+
+    }
+.flex {
+    display: flex;
+    margin-top: 2px;
+  }
+  
+  .flex > div {
+    margin: 3px;
+    padding: 3px;
+    margin-left: 70px;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  .h{
+    text-decoration: none;
+    color: hsl(201, 11%, 66%);
+    margin-top: 2px;
+    text-align: center;
+  }
+  .h:focus{
+    color:  hsl(171, 66%, 44%);
+  }
+  .fflex{
+    display: flex;
+  }
+  .fflex > div {
+    margin: 3px;
+    padding: 3px;
+    margin-left: 70px;
+    text-align: center;
+   
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  .cc{
+    display: flex;
+    float: right;
+  }
+
+    
+  
+  
+
+
+
+
+
+
